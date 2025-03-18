@@ -1,0 +1,5 @@
+/*
+NUMBER - skaiciai
+
+- sveikieji, desimtainiai
+*/

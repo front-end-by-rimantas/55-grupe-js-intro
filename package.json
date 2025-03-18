@@ -4,6 +4,8 @@
     "description": "Labas rytas, Lietuva! Ačiū! Ką tu? Ką vakare?",
     "main": "index.js",
     "scripts": {
+        "number": "node --watch ./js/1-number.js",
+        "js": "node ./index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
