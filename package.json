@@ -1,0 +1,12 @@
+{
+    "name": "55-grupe-js-intro",
+    "version": "1.0.0",
+    "description": "Labas rytas, Lietuva! Ačiū! Ką tu? Ką vakare?",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Rimantas (https://github.com/belauzas)",
+    "license": "MIT"
+}
