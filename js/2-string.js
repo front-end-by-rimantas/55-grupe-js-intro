@@ -4,6 +4,12 @@ STRING - tekstas, simboliu grandinele
 Tekstines reiksmes iniciavimas:
 - ' (vienguba kabute)
 - " (dviguba kabute)
+
+Specialieji simboliai:
+- \ (privercia sekanti simboli buti spausdintinu)
+- \r (return, kursorius grizta i eilutes pradzia)
+- \n (new line, kursorius nusileidzia viena eilute zemyn)
+- \t (tab)
 */
 
 const a = 'Labas';
@@ -70,3 +76,35 @@ console.clear();
     </nav>
 </header>
 */
+
+const html = '<header>\r\n\
+\t<img>\r\n\
+\t<nav>\r\n\
+\t\t<a></a>\r\n\
+\t\t<a></a>\r\n\
+\t\t<a></a>\r\n\
+\t</nav>\r\n\
+</header>';
+console.log(html);
+
+const html2 = '<header>\n\
+\t<img>\n\
+\t<nav>\n\
+\t\t<a></a>\n\
+\t\t<a></a>\n\
+\t\t<a></a>\n\
+\t</nav>\n\
+</header>';
+console.log(html2);
+
+const html3 = '\
+<header>\r\
+    <img>\r\
+    <nav>\r\
+        <a></a>\r\
+        <a></a>\r\
+        <a></a>\r\
+    </nav>\r\
+</header>';
+console.log('-------------------');
+console.log(html3);
