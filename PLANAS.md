@@ -1,8 +1,8 @@
 # JavaScript
 
 -   kintamieji (atminties lasteles, duomenu tipai):
+    -   ~~skaiciai (number)~~
     -   tekstas (string)
-    -   skaiciai (number)
     -   logines reiksmes (boolean)
     -   sarasas (array)
     -   objektas (object)
@@ -14,6 +14,7 @@
     -   metodai:
         -   string methods
         -   number methods
+        -   Math biblioteka
         -   array methods
         -   object methods
 -   palyginimas:
