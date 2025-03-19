@@ -4,6 +4,7 @@ STRING - tekstas, simboliu grandinele
 Tekstines reiksmes iniciavimas:
 - ' (vienguba kabute)
 - " (dviguba kabute)
+- ` (backtick)
 
 Specialieji simboliai:
 - \ (privercia sekanti simboli buti spausdintinu)
@@ -108,3 +109,49 @@ const html3 = '\
 </header>';
 console.log('-------------------');
 console.log(html3);
+
+console.clear();
+
+// Vienguba (') kabute.
+const b1 = `Vienguba (') kabute.`;
+console.log(b1);
+
+// Dviguba (") kabute.
+const b2 = `Dviguba (") kabute.`;
+console.log(b2);
+
+// Vienguba (') ir dviguba (") kabutes.
+const b3 = `Vienguba (') ir dviguba (") kabutes.`;
+console.log(b3);
+
+// Backtick (`) kabute.
+const b4 = `Backtick (\`) kabute.`;
+const b5 = 'Backtick (`) kabute.';
+const b6 = "Backtick (`) kabute.";
+
+const b7 = `<header>
+    <img>
+    <nav>
+        <a></a>
+        <a></a>
+        <a></a>
+    </nav>
+</header>`;
+console.log(b7);
+
+
+
+const studentName = 'Maryte';
+const amount = 4;
+
+// Maryte yra viena is 4 legendiniu studentu.
+
+const student = studentName + ' yra viena/s is ' + amount + ' legendiniu studentu.';
+const student2 = `${studentName} yra viena/s is ${amount} legendiniu studentu.`;
+
+console.log(student);
+console.log(student2);
+
+const demo = `Labas, ${studentName}.`;
+console.log(demo);
+
