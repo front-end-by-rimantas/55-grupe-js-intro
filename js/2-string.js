@@ -155,3 +155,63 @@ console.log(student2);
 const demo = `Labas, ${studentName}.`;
 console.log(demo);
 
+console.clear();
+
+const word = 'pomidoras';
+const wordSymbolsCount = word.length;
+
+console.log(word);
+console.log(wordSymbolsCount);
+
+const textSize = 'Labas rytas'.length;
+console.log(textSize);
+
+const space = ' ';
+console.log(space.length);
+
+const numbers = '1248562485';
+console.log(numbers.length);
+
+const number = 1248562485;
+console.log(number.length);
+console.log(('' + number).length);
+console.log(number.toString().length);
+
+const pi = '3.14';
+console.log(pi.length);
+
+const age = 99;
+
+const ageDigitsCount = ('' + age).length;
+console.log(ageDigitsCount);
+
+const ageDigitsCount2 = age.toString().length;
+console.log(ageDigitsCount2);
+
+console.clear();
+
+const text = 'Pomidoras';
+const firstSymbol = text[0];
+console.log(firstSymbol);
+
+console.log(text[0]);
+console.log(text[1]);
+console.log(text[2]);
+console.log(text[3]);
+console.log(text[4]);
+console.log(text[5]);
+console.log(text[6]);
+console.log(text[7]);
+console.log(text[8]);
+console.log(text[9]);
+console.log(text[-1]);
+
+console.log(text[0] + text[1]);
+
+// Zodyje "Sachmatai" pirmoji raide yra "S".
+// Zodyje "Kvadratas" pirmoji raide yra "K".
+// Zodyje "Regbis" pirmoji raide yra "R".
+const game = 'Regbis';
+const gameSentence = `Zodyje "${game}" pirmoji raide yra "${game[0]}".`;
+
+console.log(gameSentence);
