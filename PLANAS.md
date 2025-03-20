@@ -3,7 +3,7 @@
 -   kintamieji (atminties lasteles, duomenu tipai):
     -   ~~skaiciai (number)~~
     -   ~~tekstas (string)~~
-    -   logines reiksmes (boolean)
+    -   ~~logines reiksmes (boolean)~~
     -   sarasas (array)
     -   objektas (object)
     -   null
