@@ -9,7 +9,7 @@
     -   null
     -   undefined
 -   funkcijos (perpanaudojamas kodo blokas/logika):
-    -   "paprasta"
+    -   ~~"paprasta"~~
     -   rodykline
     -   metodai:
         -   string methods

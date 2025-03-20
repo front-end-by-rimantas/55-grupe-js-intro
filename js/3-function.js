@@ -117,3 +117,22 @@ const gn3 = gotNumber(777);
 console.log(gn1);
 console.log(gn2);
 console.log(gn3);
+
+console.clear();
+
+// 2, 2     ->  2 + 2 = 4
+// 7, 5     ->  7 + 5 = 12
+// -7, 15   ->  -7 + 15 = 8
+
+function sum(a, b) {
+    const result = a + b;
+    return `${a} + ${b} = ${result}`;
+}
+
+console.log(sum(2, 2));
+console.log(sum(7, 5));
+console.log(sum(-7, 15));
+console.log(sum(748562514562, 148562514562));
+
+// ND - perdaryti analogiskai su -, * ir / operacijomis
+
