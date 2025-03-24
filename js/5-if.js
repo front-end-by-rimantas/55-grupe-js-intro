@@ -67,3 +67,13 @@ if (temp3 < 22) {
 } else {
     console.log('Karšta 😎');
 }
+
+console.clear();
+
+const clientValue = '4';
+
+if (4 === clientValue) {
+    console.log('tenkina');
+} else {
+    console.log('NE-tenkina');
+}
