@@ -11,6 +11,8 @@
         "string": "node --watch ./js/2-string.js",
         "number": "node --watch ./js/1-number.js",
         "js": "node ./index.js",
+        "text-size": "node --watch ./task/text-size.js",
+        "adult": "node --watch ./task/adult.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
