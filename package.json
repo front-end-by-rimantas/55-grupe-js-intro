@@ -12,6 +12,7 @@
         "string": "node --watch ./js/2-string.js",
         "number": "node --watch ./js/1-number.js",
         "js": "node ./index.js",
+        "marks-average": "node --watch ./task/marks-average.js",
         "multiply": "node --watch ./task/multiply.js",
         "text-size": "node --watch ./task/text-size.js",
         "adult": "node --watch ./task/adult.js",
