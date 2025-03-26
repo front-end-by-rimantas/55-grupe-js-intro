@@ -114,3 +114,4 @@ for (let i = 0; i < names.length; i++) {
     const s = `Vardas "${name}" yra sudarytas is ${name.length} raidziu.`;
     console.log(s);
 }
+

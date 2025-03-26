@@ -13,6 +13,7 @@
         "string": "node --watch ./js/2-string.js",
         "number": "node --watch ./js/1-number.js",
         "js": "node ./index.js",
+        "interval-sum": "node --watch ./task/interval-sum.js",
         "multi-table": "node --watch ./task/multi-table.js",
         "marks-average": "node --watch ./task/marks-average.js",
         "multiply": "node --watch ./task/multiply.js",
