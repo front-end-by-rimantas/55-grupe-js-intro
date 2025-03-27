@@ -13,6 +13,7 @@
         "string": "node --watch ./js/2-string.js",
         "number": "node --watch ./js/1-number.js",
         "js": "node ./index.js",
+        "interval-count": "node --watch ./task/interval-count.js",
         "string-reverse": "node --watch ./task/string-reverse.js",
         "interval-sum": "node --watch ./task/interval-sum.js",
         "multi-table": "node --watch ./task/multi-table.js",
