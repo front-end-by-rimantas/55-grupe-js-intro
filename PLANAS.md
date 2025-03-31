@@ -22,7 +22,7 @@
     -   ternary
     -   switch
 -   ciklas:
-    -   for
+    -   ~~for~~
     -   while
     -   for-of
     -   for-in
