@@ -98,6 +98,46 @@ console.log(Math.sqrt(81), 9 ** 0.5);
 console.log(Math.sqrt(2), 2 ** 0.5);
 console.log(Math.sqrt(13), 13 ** 0.5);
 
-// random
+console.clear();
+
+// random [0..1)
 console.log('\nrandom');
 console.log(Math.random());
+
+// Random skaicius: 3 arba 7
+// [0..1) = [0 .. 0.5) + [0.5 .. 1)
+
+let count3 = 0;
+let count7 = 0;
+
+for (let i = 0; i < 1000000; i++) {
+    if (Math.random() < 0.5) {
+        count3++;
+    } else {
+        count7++;
+    }
+}
+
+console.log(count3, count7);
+
+function randomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+const counts = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+for (let i = 0; i < 1000000; i++) {
+    const index = randomNumber(0, 9);
+    counts[index]++;
+}
+
+console.log(counts);
+
+const counts2 = [0, 0];
+
+for (let i = 0; i < 1000000; i++) {
+    const index = randomNumber(0, 1);
+    counts2[index]++;
+}
+
+console.log(counts2);
