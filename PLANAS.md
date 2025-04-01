@@ -12,7 +12,7 @@
     -   ~~"paprasta"~~
     -   rodykline
     -   metodai:
-        -   Math biblioteka
+        -   ~~Math biblioteka~~
         -   string methods
         -   number methods
         -   array methods
