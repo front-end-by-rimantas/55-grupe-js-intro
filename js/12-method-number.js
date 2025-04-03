@@ -97,3 +97,37 @@ console.log(parseFloat('+5-5'));
 console.log(parseFloat('+5+5'));
 console.log(parseFloat('++55'));
 
+console.clear();
+
+const a = 12.3456789;
+console.log(a);
+console.log(typeof a);
+
+console.log(typeof typeof a);
+console.log(typeof 'number');
+console.log('string');
+
+const b = a.toFixed(4);
+console.log(b);
+console.log(typeof b);
+
+const c = parseFloat(b);
+console.log(c);
+console.log(typeof c);
+
+console.log(12.3456789.toFixed(7));
+console.log(12.3456789.toFixed(6));
+console.log(12.3456789.toFixed(5));
+console.log(12.3456789.toFixed(4));
+console.log(12.3456789.toFixed(3));
+console.log(12.3456789.toFixed(2));
+console.log(12.3456789.toFixed(1));
+console.log(12.3456789.toFixed(0));
+
+console.log(3.14.toFixed(0));
+console.log(3.14.toFixed(1));
+console.log(3.14.toFixed(2));
+console.log(3.14.toFixed(3));
+console.log(3.14.toFixed(4));
+console.log(3.14.toFixed(5));
+console.log(3.14.toFixed(6));
