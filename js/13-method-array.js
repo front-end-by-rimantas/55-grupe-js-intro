@@ -132,3 +132,10 @@ const c111 = c1.concat(c1, c1);
 console.log(c111);
 
 console.clear();
+
+//          0   1   2   3   4
+const h = [11, 22, 33, 44, 55];
+console.log(h);
+
+h.splice(1, 2);
+console.log(h);
