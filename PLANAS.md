@@ -14,7 +14,7 @@
     -   metodai:
         -   ~~Math biblioteka~~
         -   ~~string methods~~
-        -   number methods
+        -   ~~number methods~~
         -   array methods
         -   object methods
 -   palyginimas:
