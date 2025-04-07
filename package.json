@@ -4,6 +4,7 @@
     "description": "Labas rytas, Lietuva! Ačiū! Ką tu? Ką vakare?",
     "main": "index.js",
     "scripts": {
+        "arrow": "node --watch ./js/14-arrow.js",
         "method:array": "node --watch ./js/13-method-array.js",
         "method:number": "node --watch ./js/12-method-number.js",
         "method:string": "node --watch ./js/11-method-string.js",
@@ -18,6 +19,7 @@
         "string": "node --watch ./js/2-string.js",
         "number": "node --watch ./js/1-number.js",
         "js": "node ./index.js",
+        "fancy-math": "node --watch ./task/fancy-math.js",
         "names": "node --watch ./task/names-split-join.js",
         "money-format": "node --watch ./task/money-format.js",
         "valid-name": "node --watch ./task/valid-name.js",
