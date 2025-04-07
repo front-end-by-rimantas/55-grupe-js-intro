@@ -18,6 +18,7 @@
         "string": "node --watch ./js/2-string.js",
         "number": "node --watch ./js/1-number.js",
         "js": "node ./index.js",
+        "names": "node --watch ./task/names-split-join.js",
         "money-format": "node --watch ./task/money-format.js",
         "valid-name": "node --watch ./task/valid-name.js",
         "biggest-number": "node --watch ./task/biggest-number.js",
