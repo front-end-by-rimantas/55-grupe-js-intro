@@ -6,11 +6,11 @@
     -   ~~logines reiksmes (boolean)~~
     -   ~~sarasas (array)~~
     -   ~~objektas (object)~~
-    -   ~~null~~ (reiksme neegzistuoja, bet mes kitame ja gauti/paskaiciuoti)
+    -   ~~null~~ (reiksme neegzistuoja, bet mes ketiname ja gauti/paskaiciuoti)
     -   ~~undefined~~ (reiksme neegzistuoja, kai kreipiesi i atminti ir joje nera duomens)
 -   funkcijos (perpanaudojamas kodo blokas/logika):
     -   ~~"paprasta"~~
-    -   rodykline
+    -   ~~rodykline~~
     -   metodai:
         -   ~~Math biblioteka~~
         -   ~~string methods~~
