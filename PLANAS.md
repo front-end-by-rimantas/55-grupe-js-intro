@@ -19,11 +19,11 @@
         -   object methods
 -   palyginimas:
     -   ~~if~~
-    -   ternary
+    -   ~~ternary~~
     -   switch
 -   ciklas:
     -   ~~for~~
     -   while
-    -   for-of
+    -   ~~for-of~~
     -   for-in
 -   ivykiu stebejimas (event listeners)
