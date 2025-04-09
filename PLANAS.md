@@ -15,7 +15,7 @@
         -   ~~Math biblioteka~~
         -   ~~string methods~~
         -   ~~number methods~~
-        -   array methods
+        -   ~~array methods~~
         -   object methods
 -   palyginimas:
     -   ~~if~~
