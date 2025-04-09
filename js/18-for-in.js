@@ -4,6 +4,7 @@ const person = {
     isMarried: true,
 };
 
+// 1)
 const keys = Object.keys(person);
 console.log(keys);
 
@@ -11,6 +12,7 @@ for (const key of keys) {
     console.log(person[key]);
 }
 
+// 2)
 for (const key in person) {
     console.log(person[key]);
 }
