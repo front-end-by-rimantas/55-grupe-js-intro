@@ -277,5 +277,5 @@ console.log(someTreesValid);
 const someTreesNameSize5 = trees.some(s => s.length === 5);
 console.log(someTreesNameSize5);
 
-// sort
-// reduce
+const someTreesNameSize10 = trees.some(s => s.length === 10);
+console.log(someTreesNameSize10);
