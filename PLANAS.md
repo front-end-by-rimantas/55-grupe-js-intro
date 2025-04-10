@@ -8,19 +8,19 @@
     -   ~~objektas (object)~~
     -   ~~null~~ (reiksme neegzistuoja, bet mes ketiname ja gauti/paskaiciuoti)
     -   ~~undefined~~ (reiksme neegzistuoja, kai kreipiesi i atminti ir joje nera duomens)
--   funkcijos (perpanaudojamas kodo blokas/logika):
+-   ~~funkcijos~~ (perpanaudojamas kodo blokas/logika):
     -   ~~"paprasta"~~
     -   ~~rodykline~~
-    -   metodai:
+    -   ~~metodai~~:
         -   ~~Math biblioteka~~
         -   ~~string methods~~
         -   ~~number methods~~
         -   ~~array methods~~
         -   ~~object methods~~
--   palyginimas:
+-   ~~palyginimas~~:
     -   ~~if~~
     -   ~~ternary~~
-    -   switch
+    -   ~~switch~~
 -   ~~ciklas~~:
     -   ~~for~~
     -   ~~while~~
