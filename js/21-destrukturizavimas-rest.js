@@ -47,3 +47,104 @@ console.log(p312);
 
 const p4 = { d: 4, ...p3, c: 99 };
 console.log(p4);
+
+
+console.clear();
+
+const marks = [10, 2, 8, 4, 6];
+const [first, second, ...rest] = marks;
+
+console.log(first);
+console.log(second);
+console.log(rest);
+
+const marks2 = [first, second, ...rest];
+console.log(marks2);
+
+const names = ['Jonas', 'Maryte', 'Petras', 'Ona'];
+const n1 = names[0];
+const n2 = names[1];
+const n34 = names.slice(2);
+
+console.log(n1);
+console.log(n2);
+console.log(n34);
+
+const [x, y, ...z] = names;
+console.log(x);
+console.log(y);
+console.log(z);
+
+const mix = [1, 'asd', true, [], {}, undefined];
+const [m1, m2, m3, ...mRest] = mix;
+
+console.log(m1);
+console.log(m2);
+console.log(m3);
+console.log(mRest);
+
+console.clear();
+
+const person = {
+    address: 'Miestas g. 7',
+    name: 'Jonas',
+    age: 99,
+    isMarried: true,
+};
+const { name, age, ...p } = person;
+
+console.log(name);
+console.log(age);
+console.log(p);
+
+const { address, ...pp } = p;
+console.log(address);
+console.log(pp);
+console.clear();
+
+const students = [
+    { name: 'Jonas', age: 99 },
+    { name: 'Maryte', age: 88 },
+    { name: 'Petras', age: 77 },
+    { name: 'Ona', age: 66 },
+];
+
+for (let i = 0; i < students.length; i++) {
+    const { name, age } = students[i];
+    const result = `Studentui, vardu ${name}, yra ${age} metai.`;
+    console.log(result);
+}
+
+console.log('------------------');
+
+for (const student of students) {
+    const { name, age } = student;
+    const result = `Studentui, vardu ${name}, yra ${age} metai.`;
+    console.log(result);
+}
+
+console.log('------------------');
+
+for (const { name, age } of students) {
+    const result = `Studentui, vardu ${name}, yra ${age} metai.`;
+    console.log(result);
+}
+
+console.clear();
+
+const numbers = [
+    [0],
+    [1, 11],
+    [2, 22, 222],
+    [3, 33, 333, 3333],
+    [4],
+    [5],
+    [6],
+];
+
+// Pirmas skaicius yra X ir dar yra Y papildomu skaiciu.
+
+for (const [first, ...rest] of numbers) {
+    const result = `Pirmas skaicius yra ${first} ir dar yra ${rest.length} papildomu skaiciu.`;
+    console.log(result);
+}
