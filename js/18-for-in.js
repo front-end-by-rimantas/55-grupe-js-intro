@@ -5,6 +5,7 @@ const person = {
 };
 
 // 1)
+// [name, age, isMarried]
 const keys = Object.keys(person);
 console.log(keys);
 
